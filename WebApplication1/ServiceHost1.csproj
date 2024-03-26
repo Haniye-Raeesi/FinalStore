@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccountManagement.Infrastructure.Configuration\AccountManagement.Infrastructure.Configuration.csproj" />
+    <ProjectReference Include="..\AccountManagement.Infrastructure.EfCore\AccountManagement.Infrastructure.EfCore.csproj" />
+    <ProjectReference Include="..\BlogManagement.InfraStructure.Configuration\BlogManagement.InfraStructure.Configuration.csproj" />
+    <ProjectReference Include="..\BlogManagement.InfraStructure.EfCore\BlogManagement.InfraStructure.EfCore.csproj" />
+    <ProjectReference Include="..\CommentManagement.InfraStructure.Configuration\CommentManagement.InfraStructure.Configuration.csproj" />
+    <ProjectReference Include="..\CommentManagement.InfraStructure.EfCore\CommentManagement.InfraStructure.EfCore.csproj" />
+    <ProjectReference Include="..\DiscountManagement.InfraStructure.Configuration\DiscountManagement.InfraStructure.Configuration.csproj" />
+    <ProjectReference Include="..\DiscountManagement.InfraStructure.EfCore\DiscountManagement.InfraStructure.EfCore.csproj" />
+    <ProjectReference Include="..\InventoryManagement.InfraStructure.Configuration\InventoryManagement.InfraStructure.Configuration.csproj" />
+    <ProjectReference Include="..\InventoryManagement.InfraStructure.EfCore\InventoryManagement.InfraStructure.EfCore.csproj" />
+    <ProjectReference Include="..\ShopManagement.InfraStructure.Configuration\ShopManagement.InfraStructure.Configuration.csproj" />
+    <ProjectReference Include="..\ShopManagement.InfraStructure.EfCore\ShopManagement.InfraStructure.EfCore.csproj" />
+  </ItemGroup>
+
+</Project>

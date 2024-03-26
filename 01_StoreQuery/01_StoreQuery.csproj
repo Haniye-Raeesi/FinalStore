@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_01_StoreQuery</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogManagement.InfraStructure.EfCore\BlogManagement.InfraStructure.EfCore.csproj" />
+    <ProjectReference Include="..\CommentManagement.InfraStructure.EfCore\CommentManagement.InfraStructure.EfCore.csproj" />
+    <ProjectReference Include="..\DiscountManagement.InfraStructure.EfCore\DiscountManagement.InfraStructure.EfCore.csproj" />
+    <ProjectReference Include="..\InventoryManagement.InfraStructure.EfCore\InventoryManagement.InfraStructure.EfCore.csproj" />
+    <ProjectReference Include="..\ShopManagement.InfraStructure.EfCore\ShopManagement.InfraStructure.EfCore.csproj" />
+  </ItemGroup>
+
+</Project>
